@@ -11,27 +11,26 @@ let result= document.querySelector(".result");
 check.onclick = function(){
     console.log("does it work");
 
-    let SorS= SorS.value; 
-console.log(SorS)
+    let SorSA= SorS.value; 
+console.log(SorSA);
 
-    let RorS= RorSA.value;
-    console.log(RorS)
+    let RorSA= RorS.value;
+    console.log(RorSA);
 
-    if (SorS === "Sweet" && RorS === "Rainy")
+    if (SorSA === "Sweet" && RorSA === "Rainy"){
         console.log ("Moon Dong-eun")
-    result.innerHTML= "You are Moon Dong-eun"
-};
+    result.innerHTML= "You are Moon Dong-eun";
 
-else if (SorS === "Sour" && RorS=== "Rainy"){
+}else if (SorSA === "Sour" && RorSA === "Rainy"){
     console.log ("Jeon Jae-joon")
-result.innerHTML= "You are Jeon Jae-joon"
-};
-else if (SorS === "Sweet" && RorS === "Sunny"){
+result.innerHTML= "You are Jeon Jae-joon";
+
+}else if (SorSA === "Sweet" && RorSA === "Sunny"){
     console.log ("Ha Do-yeong")
-result.innerHTML= "You are Ha Do-yeong"
-};
-else if (SorS === "Sour" && RorS === "Sunny "){
+result.innerHTML= "You are Ha Do-yeong";
+
+}else if (SorSA === "Sour" && RorSA === "Sunny"){
     console.log ("Park Yeon-jin")
 result.innerHTML= "You are Park Yeon-jin"
 };
-
+}
