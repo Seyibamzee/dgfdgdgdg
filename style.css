@@ -1,5 +1,23 @@
-h1{ color:rgb(245, 245, 245);}
-body{  background-color:#323471;
-    width: 375px;
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+*{font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal; padding: 5px;}
+
+    p{color: #323471; font-size: 3vh;
+    text-align:center;}
+    
+.result{font-size: 5vh;text-align: center;}
+.input{display: flex; flex-direction:column ;justify-content: center;}
+
+body{  background-color:#ffffff;
+    width: 220px;
     margin: 0  auto;
 }
+.SorS{border-radius: 5px; border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
+.RorS {border-radius: 5px;  border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
+.check {border-radius: 12px; font-size: 4vh; height: 50px;width: 200px;background-color: #0257c9
+    ; color: black;}
+h1{ color:hsl(234, 51%, 67%) ; display: flex; flex-direction:column ;justify-content: center;}
+h2{ color:black; display: flex; flex-direction:column ;justify-content: center; text-align: center; font-size: 2.78vh;}
+
+    

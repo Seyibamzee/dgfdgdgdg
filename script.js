@@ -34,3 +34,5 @@ result.innerHTML= "You are Ha Do-yeong";
 result.innerHTML= "You are Park Yeon-jin"
 };
 }
+
+
