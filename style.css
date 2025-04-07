@@ -10,14 +10,15 @@
 .input{display: flex; flex-direction:column ;justify-content: center;}
 
 body{  background-color:#ffffff;
-    width: 220px;
+    width: 390px;
     margin: 0  auto;
 }
 .SorS{border-radius: 5px; border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
 .RorS {border-radius: 5px;  border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
-.check {border-radius: 12px; font-size: 4vh; height: 50px;width: 200px;background-color: #0257c9
-    ; color: black;}
+.check {border-radius: 12px; font-size: 4vh; height: 100px;width: 200px;background-color: #0257c9 ; color: black;}
 h1{ color:hsl(234, 51%, 67%) ; display: flex; flex-direction:column ;justify-content: center;}
 h2{ color:black; display: flex; flex-direction:column ;justify-content: center; text-align: center; font-size: 2.78vh;}
+img{ width:80%; display:flex;  flex-direction:column; justify-content: center;}
 
-    
+
+
