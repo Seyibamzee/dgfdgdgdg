@@ -10,7 +10,7 @@
 .input{display: flex; flex-direction:column ;justify-content: center;}
 
 body{  background-color:#ffffff;
-    width: 390px;
+    width: 375px;
     margin: 0  auto;
 }
 .SorS{border-radius: 5px; border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
