@@ -13,12 +13,13 @@ body{  background-color:#ffffff;
     width: 375px;
     margin: 0  auto;
 }
+
 .SorS{border-radius: 5px; border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
 .RorS {border-radius: 5px;  border-color: #0257c9 ; font-size: 4vh;background-color: rgb(255, 255, 255); color:#323471  ;}
-.check {border-radius: 12px; font-size: 4vh; height: 100px;width: 200px;background-color: #0257c9 ; color: black;}
-h1{ color:hsl(234, 51%, 67%) ; display: flex; flex-direction:column ;justify-content: center;}
-h2{ color:black; display: flex; flex-direction:column ;justify-content: center; text-align: center; font-size: 2.78vh;}
-img{ width:80%; display:flex;  flex-direction:column; justify-content: center;}
+.check {border-radius:10px; font-size:4vh; height:60px; width:150px; background-color: #0257c9; color: black; margin: 0; position: relative; top: 130%;left: 26%; }
+h1{ color:hsl(234, 51%, 67%) ; display: flex; flex-direction:column ;justify-content: center;  text-align: center; border: 2px solid blue; }
+h2{ color:black; display: flex; flex-direction:column ;justify-content: center; text-align: center; font-size: 2.78vh; font-size: 30px;}
+.answer{ width:80%; display:flex; flex-direction: column; justify-content: center; position:relative; top: 190%; left: 10%;}
 
 
 
