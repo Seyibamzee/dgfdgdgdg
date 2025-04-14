@@ -19,8 +19,7 @@ body{  background-color:#ffffff;
 .check {border-radius:10px; font-size:4vh; height:70px; width:170px; background-color: #0257c9; color: black; margin: 0; position: relative; top: 130%;left: 26%; }
 h1{color:hsl(234, 51%, 67%) ;}
 h2{color:white;}
-    .header{color:hsl(234, 51%, 67%) ; display: flex; flex-direction:column ;justify-content: center;  text-align: center; border: 2px solid rgb(0, 0, 0); position: sticky;top: 0;padding: 20px 16px;background:#323471;
-        border-radius:10px; } 
+    .header{ display: flex; flex-direction:column ;justify-content: center;  text-align: center; border: 2px solid rgb(0, 0, 0); position:sticky; top:0; padding:10px; background:#323471; border-radius:20px; z-index: 1; } 
 .answer{ width:80%; display:flex; flex-direction: column; justify-content: center; position:relative; top: 190%; left: 10%;}
 
 
